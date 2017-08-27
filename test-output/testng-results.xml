@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1563" started-at="2017-08-20T15:16:08Z" finished-at="2017-08-20T15:16:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1563" started-at="2017-08-20T15:16:08Z" finished-at="2017-08-20T15:16:10Z">
+      <class name="jdbcconnection.SQLToExcel">
+        <test-method status="PASS" signature="connect()[pri:0, instance:jdbcconnection.SQLToExcel@604ed9f0]" name="connect" is-config="true" duration-ms="563" started-at="2017-08-20T11:16:08Z" finished-at="2017-08-20T11:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connect -->
+        <test-method status="PASS" signature="loadDataToExcel()[pri:0, instance:jdbcconnection.SQLToExcel@604ed9f0]" name="loadDataToExcel" duration-ms="985" started-at="2017-08-20T11:16:09Z" finished-at="2017-08-20T11:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadDataToExcel -->
+        <test-method status="PASS" signature="closeConnections()[pri:0, instance:jdbcconnection.SQLToExcel@604ed9f0]" name="closeConnections" is-config="true" duration-ms="0" started-at="2017-08-20T11:16:10Z" finished-at="2017-08-20T11:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnections -->
+      </class> <!-- jdbcconnection.SQLToExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
